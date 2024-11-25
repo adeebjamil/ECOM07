@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Hide default Swiper navigation buttons */
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  display: none;
+}
+
+/* Swiper Pagination Styles */
+.swiper-pagination-bullet {
+  background: #000 !important;
+  opacity: 0.2 !important;
+}
+
+.swiper-pagination-bullet-active {
+  opacity: 1 !important;
+}
